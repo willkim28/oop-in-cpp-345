@@ -1,0 +1,61 @@
+w1.cpp: In function 'int sict::main(int, char**)':
+w1.cpp:17:22: error: 'begin' was not declared in this scope
+         for (int i : argc) {
+                      ^~~~
+w1.cpp:17:22: note: suggested alternative:
+In file included from /usr/local/gcc/8.2.0/include/c++/8.2.0/string:51,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/bits/locale_classes.h:40,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/bits/ios_base.h:41,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/ios:42,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/ostream:38,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/iostream:39,
+                 from w1.cpp:8:
+/usr/local/gcc/8.2.0/include/c++/8.2.0/bits/range_access.h:105:37: note:   'std::begin'
+   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&);
+                                     ^~~~~
+w1.cpp:17:22: error: 'end' was not declared in this scope
+         for (int i : argc) {
+                      ^~~~
+w1.cpp:17:22: note: suggested alternative:
+In file included from /usr/local/gcc/8.2.0/include/c++/8.2.0/string:51,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/bits/locale_classes.h:40,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/bits/ios_base.h:41,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/ios:42,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/ostream:38,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/iostream:39,
+                 from w1.cpp:8:
+/usr/local/gcc/8.2.0/include/c++/8.2.0/bits/range_access.h:107:37: note:   'std::end'
+   template<typename _Tp> const _Tp* end(const valarray<_Tp>&);
+                                     ^~~
+w1.cpp:25:26: error: 'begin' was not declared in this scope
+             for (int i : argc) {
+                          ^~~~
+w1.cpp:25:26: note: suggested alternative:
+In file included from /usr/local/gcc/8.2.0/include/c++/8.2.0/string:51,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/bits/locale_classes.h:40,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/bits/ios_base.h:41,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/ios:42,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/ostream:38,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/iostream:39,
+                 from w1.cpp:8:
+/usr/local/gcc/8.2.0/include/c++/8.2.0/bits/range_access.h:105:37: note:   'std::begin'
+   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&);
+                                     ^~~~~
+w1.cpp:25:26: error: 'end' was not declared in this scope
+             for (int i : argc) {
+                          ^~~~
+w1.cpp:25:26: note: suggested alternative:
+In file included from /usr/local/gcc/8.2.0/include/c++/8.2.0/string:51,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/bits/locale_classes.h:40,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/bits/ios_base.h:41,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/ios:42,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/ostream:38,
+                 from /usr/local/gcc/8.2.0/include/c++/8.2.0/iostream:39,
+                 from w1.cpp:8:
+/usr/local/gcc/8.2.0/include/c++/8.2.0/bits/range_access.h:107:37: note:   'std::end'
+   template<typename _Tp> const _Tp* end(const valarray<_Tp>&);
+                                     ^~~
+String.cpp: In constructor 'sict::String::String(const char*)':
+String.cpp:13:25: error: assignment of read-only location '* argStr'
+             argStr[0] = '\0';
+                         ^~~~
